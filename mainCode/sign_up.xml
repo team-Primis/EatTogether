@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FFFFFF"
+
+
+    tools:context=".SignUpActivity">
+
+  <Button
+      android:id="@+id/button"
+      android:layout_width="313dp"
+      android:layout_height="44dp"
+      android:layout_marginStart="49dp"
+      android:layout_marginLeft="49dp"
+      android:layout_marginTop="30dp"
+      android:layout_marginEnd="49dp"
+      android:layout_marginRight="49dp"
+      android:background="#03A9F4"
+      android:onClick="onRegisterButtonClicked"
+      android:text="회원가입"
+      android:textColor="#FFFFFF"
+      android:textSize="24sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/idText3" />
+
+  <Button
+      android:id="@+id/button2"
+      android:layout_width="313dp"
+      android:layout_height="44dp"
+      android:layout_marginStart="49dp"
+      android:layout_marginLeft="49dp"
+      android:layout_marginTop="40dp"
+      android:layout_marginEnd="49dp"
+      android:layout_marginRight="49dp"
+      android:background="#00FFFFFF"
+      android:onClick="onLoginButtonCliicked"
+      android:text="로그인 화면으로"
+      android:textColor="#00BCD4"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/button" />
+
+  <EditText
+      android:id="@+id/idText"
+      android:layout_width="317dp"
+      android:layout_height="48dp"
+      android:layout_marginStart="48dp"
+      android:layout_marginLeft="48dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginEnd="46dp"
+      android:layout_marginRight="46dp"
+      android:ems="10"
+      android:inputType="textPassword"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/descriptionId" />
+
+  <EditText
+      android:id="@+id/idText2"
+      android:layout_width="317dp"
+      android:layout_height="48dp"
+      android:layout_marginStart="48dp"
+      android:layout_marginLeft="48dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginEnd="46dp"
+      android:layout_marginRight="46dp"
+      android:ems="10"
+      android:inputType="textPassword"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/descriptionId2" />
+
+  <EditText
+      android:id="@+id/idText3"
+      android:layout_width="317dp"
+      android:layout_height="48dp"
+      android:layout_marginStart="48dp"
+      android:layout_marginLeft="48dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginEnd="46dp"
+      android:layout_marginRight="46dp"
+      android:ems="10"
+      android:inputType="textPassword"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/descriptionId3" />
+
+  <ImageView
+      android:id="@+id/imageView5"
+      android:layout_width="73dp"
+      android:layout_height="74dp"
+      android:layout_marginStart="27dp"
+      android:layout_marginLeft="27dp"
+      android:layout_marginTop="32dp"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:srcCompat="@drawable/eat1" />
+
+  <ImageView
+      android:id="@+id/imageView6"
+      android:layout_width="322dp"
+      android:layout_height="64dp"
+      android:layout_marginStart="45dp"
+      android:layout_marginLeft="45dp"
+      android:layout_marginEnd="45dp"
+      android:layout_marginRight="45dp"
+      android:layout_marginBottom="8dp"
+      app:layout_constraintBottom_toTopOf="@+id/descriptionId"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:srcCompat="@drawable/bar" />
+
+  <TextView
+      android:id="@+id/title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="55dp"
+      android:layout_marginLeft="55dp"
+      android:layout_marginTop="8dp"
+      android:layout_marginEnd="55dp"
+      android:layout_marginRight="55dp"
+      android:text="우리 오늘 뭐먹을래?"
+      android:textSize="36sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+  <TextView
+      android:id="@+id/descriptionId"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="55dp"
+      android:layout_marginLeft="55dp"
+      android:layout_marginTop="50dp"
+      android:layout_marginEnd="307dp"
+      android:layout_marginRight="307dp"
+      android:text="아이디"
+      android:textColor="#8BC4DD"
+      android:textSize="18sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/title" />
+
+  <TextView
+      android:id="@+id/descriptionId2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="55dp"
+      android:layout_marginLeft="55dp"
+      android:layout_marginTop="15dp"
+      android:layout_marginEnd="290dp"
+      android:layout_marginRight="290dp"
+      android:text="비밀번호"
+      android:textColor="#8BC4DD"
+      android:textSize="18sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/idText" />
+
+  <TextView
+      android:id="@+id/descriptionId3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="55dp"
+      android:layout_marginLeft="55dp"
+      android:layout_marginTop="15dp"
+      android:layout_marginEnd="258dp"
+      android:layout_marginRight="258dp"
+      android:text="비밀번호확인"
+      android:textColor="#8BC4DD"
+      android:textSize="18sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/idText2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

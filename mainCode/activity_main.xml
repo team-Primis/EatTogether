@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+
+  <ImageView
+      android:id="@+id/imageView10"
+      android:layout_width="50dp"
+      android:layout_height="47dp"
+      android:layout_marginStart="10dp"
+      android:layout_marginLeft="10dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintStart_toEndOf="@+id/imageView2"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.203"
+      app:srcCompat="@drawable/profile" />
+
+  <ImageView
+      android:id="@+id/imageView11"
+      android:layout_width="50dp"
+      android:layout_height="47dp"
+      android:layout_marginStart="10dp"
+      android:layout_marginLeft="10dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintStart_toEndOf="@+id/imageView10"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.203"
+      app:srcCompat="@drawable/profile" />
+
+  <ImageView
+      android:id="@+id/imageView2"
+      android:layout_width="50dp"
+      android:layout_height="47dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.044"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.203"
+      app:srcCompat="@drawable/profile" />
+
+  <ImageView
+      android:id="@+id/imageView12"
+      android:layout_width="50dp"
+      android:layout_height="47dp"
+      android:layout_marginStart="10dp"
+      android:layout_marginLeft="10dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintStart_toEndOf="@+id/imageView11"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.203"
+      app:srcCompat="@drawable/profile" />
+
+  <TextView
+      android:id="@+id/title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="32dp"
+      android:text="우리 오늘 뭐먹을래?"
+      android:textColor="#15246C"
+      android:textSize="40dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.493"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <ImageView
+      android:id="@+id/imageView"
+      android:layout_width="414dp"
+      android:layout_height="83dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.115"
+      app:srcCompat="@drawable/bar" />
+
+  <ImageView
+      android:id="@+id/imageView13"
+      android:layout_width="58dp"
+      android:layout_height="45dp"
+      android:layout_marginStart="10dp"
+      android:layout_marginLeft="10dp"
+      android:layout_marginEnd="10dp"
+      android:layout_marginRight="10dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.37"
+      app:layout_constraintStart_toEndOf="@+id/imageView9"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.201"
+      app:srcCompat="@drawable/bell" />
+
+  <ImageView
+      android:id="@+id/imageView9"
+      android:layout_width="51dp"
+      android:layout_height="46dp"
+      android:layout_marginStart="10dp"
+      android:layout_marginLeft="10dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintStart_toEndOf="@+id/imageView12"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.202"
+      app:srcCompat="@drawable/plus" />
+
+  <ImageView
+      android:id="@+id/imageView15"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.26999998"
+      app:srcCompat="@drawable/graybar" />
+
+  <Button
+      android:id="@+id/button5"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginEnd="10dp"
+      android:layout_marginRight="10dp"
+      android:background="#72768C"
+      android:paddingLeft="40dp"
+      android:paddingRight="40dp"
+      android:text="싫어하는 거 빼기"
+      android:textColor="#ffffffff"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+
+
+      app:layout_constraintVertical_bias="0.35000002" />
+
+  <Button
+      android:id="@+id/button4"
+      style="@style/Widget.AppCompat.Button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="10dp"
+      android:layout_marginLeft="10dp"
+      android:layout_marginEnd="10dp"
+      android:layout_marginRight="10dp"
+      android:background="#03A9F4"
+      android:paddingLeft="40dp"
+      android:paddingRight="40dp"
+      android:text="좋아하는 거 겹치기"
+      android:textColor="#ffffffff"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toStartOf="@+id/button5"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.349" />
+
+  <ScrollView
+      android:id="@+id/scrollView2"
+      android:layout_width="355dp"
+      android:layout_height="0dp"
+      android:layout_marginTop="20dp"
+      android:layout_marginBottom="50dp"
+      android:fillViewport="true"
+      android:scrollbarStyle="insideInset"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.517"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/button4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="치킨"
+          android:textSize="20dp" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="피자"
+          android:textSize="20dp" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="파스타"
+          android:textSize="20dp" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="보쌈"
+          android:textSize="20dp" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="육회"
+          android:textSize="20dp" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="낙지볶음"
+          android:textSize="20dp" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="햄버거"
+          android:textSize="20dp" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="치킨"
+          android:textSize="20dp" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="피자"
+          android:textSize="20dp" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="파스타"
+          android:textSize="20dp" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="보쌈"
+          android:textSize="20dp" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="육회"
+          android:textSize="20dp" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="낙지볶음"
+          android:textSize="20dp" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="치킨"
+          android:textSize="20dp" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="햄버거"
+          android:textSize="20dp" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="피자"
+          android:textSize="20dp" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="파스타"
+          android:textSize="20dp" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="보쌈"
+          android:textSize="20dp" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="육회"
+          android:textSize="20dp" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="낙지볶음"
+          android:textSize="20dp" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="햄버거"
+          android:textSize="20dp" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="치킨"
+          android:textSize="20dp" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="피자"
+          android:textSize="20dp" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="파스타"
+          android:textSize="20dp" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="보쌈"
+          android:textSize="20dp" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="육회"
+          android:textSize="20dp" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="낙지볶음"
+          android:textSize="20dp" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="햄버거"
+          android:textSize="20dp" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="치킨"
+          android:textSize="20dp" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="피자"
+          android:textSize="20dp" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="파스타"
+          android:textSize="20dp" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="보쌈"
+          android:textSize="20dp" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="육회"
+          android:textSize="20dp" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="낙지볶음"
+          android:textSize="20dp" />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="햄버거"
+          android:textSize="20dp" />
+
+
+    </LinearLayout>
+  </ScrollView>
+
+  <ImageView
+      android:id="@+id/imageView17"
+      android:layout_width="45dp"
+      android:layout_height="37dp"
+      android:layout_marginBottom="10dp"
+      app:layout_constraintBottom_toTopOf="@+id/imageView"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="1.0"
+      app:srcCompat="@drawable/eat1" />
+
+  <Button
+      android:id="@+id/button6"
+      android:layout_width="269dp"
+      android:layout_height="39dp"
+      android:layout_marginStart="15dp"
+      android:layout_marginLeft="15dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginEnd="15dp"
+      android:layout_marginRight="15dp"
+      android:layout_marginBottom="30dp"
+      android:background="#03A9F4"
+      android:onClick="onRulletButtonClicked"
+      android:paddingLeft="20dp"
+      android:paddingRight="20dp"
+      android:text="룰렛 돌리기"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
